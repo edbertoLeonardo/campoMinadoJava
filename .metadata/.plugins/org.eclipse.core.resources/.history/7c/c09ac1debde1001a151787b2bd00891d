@@ -1,0 +1,13 @@
+import br.com.empresa.campoMinado.modelo.Tabuleiro;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		
+		Tabuleiro tabuleiro = new Tabuleiro(6, 6, 6);
+		
+		tabuleiro.abrir(3, coluna);
+		
+		System.out.println(tabuleiro);
+	}
+}

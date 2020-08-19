@@ -1,0 +1,39 @@
+package br.com.empresa.campoMinado.visao;
+
+import java.util.Scanner;
+
+import br.com.empresa.campoMinado.exeption.SairException;
+import br.com.empresa.campoMinado.modelo.Tabuleiro;
+
+public class TabuleiroConsole {
+
+	private Tabuleiro tabuleiro;
+	private Scanner scanner = new Scanner(System.in);
+	
+	public TabuleiroConsole(Tabuleiro tabuleiro) {
+		this.tabuleiro = tabuleiro; 
+		
+		executarJogo();
+	}
+
+	private void executarJogo() {
+		try {
+			boolean continuar = true;
+			while (continuar) {
+				System.out.println("Outra partida? (S/N)");
+				String resposta = scanner.nextLine();
+				
+				if ("n".equalsIgnoreCase(resposta)) {
+					continuar = false;
+				}else {
+					tabuleiro.reiniciar();
+				}
+				
+			}
+		} catch (SairException e) {
+			System.out.println("Fim!!!!");
+		}finally {
+			scanner.close();
+		}
+	}
+}

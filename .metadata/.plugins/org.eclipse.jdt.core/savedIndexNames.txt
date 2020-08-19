@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+C:\Users\edble\campoMinado\.metadata\.plugins\org.eclipse.jdt.core
+4155801730.index
+3509316366.index
+4000433604.index
+3359208678.index
+3233183437.index
+2635818743.index
+1248545562.index
+3857625198.index
+1381982809.index
+2694937145.index
+534988026.index
+62246196.index
+3222360627.index
+3441551325.index
+1550779258.index
+3576221655.index

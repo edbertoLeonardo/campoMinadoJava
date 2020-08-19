@@ -1,0 +1,8 @@
+package br.com.empresa.campoMinado.visao;
+
+import br.com.empresa.campoMinado.modelo.Tabuleiro;
+
+public class TabuleiroConsole {
+
+	private Tabuleiro tabuleiro;
+}

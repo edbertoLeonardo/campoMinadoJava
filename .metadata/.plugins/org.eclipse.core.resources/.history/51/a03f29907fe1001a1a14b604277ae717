@@ -1,0 +1,14 @@
+package br.com.empresa.campoMinado;
+
+import br.com.empresa.campoMinado.modelo.Campo;
+
+public class CampoTeste {
+
+	 Campo campo = new Campo(3, 3);
+	
+	void testeVizinhoERealDistancia1() {
+		Campo vizinho = new Campo(3, 2);
+		
+		campo.adicionarVizinho(vizinho);
+	}
+}
